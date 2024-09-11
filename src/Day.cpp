@@ -31,9 +31,9 @@ Day::Day(){
 	int weekNumber = (dayOfMonth + firstDayWeek - 1) / 7 + 1;
 
 	if (weekNumber % 2 == 0){
-		this->week = "even"; // чёт
+		this->week = "Парний"; // чёт
 	} else {
-		this->week = "odd"; // не чет
+		this->week = "Непарний"; // не чет
 	}
 }
 
